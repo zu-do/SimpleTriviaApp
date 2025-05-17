@@ -1,0 +1,2 @@
+# SimpleTriviaApp
+Created with CodeSandbox
