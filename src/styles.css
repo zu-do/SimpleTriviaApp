@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.qCard {
+  margin-top: 10%;
+  width: 50%;
+}
+
+.loader {
+  border: 1.6rem solid #f3f3f3; /* Light grey */
+  border-top: 1.6rem solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  animation: spin 2s linear infinite;
+  display: flex;
+  margin: auto;
+  padding: 2rem;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .text-center .card mx-auto {
+    width: 100%;
+  }
+}
